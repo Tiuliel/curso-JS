@@ -1,3 +1,5 @@
+// exercicio
+
 let salario = 3000;
 let novoSalario;
 
