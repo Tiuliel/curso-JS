@@ -9,4 +9,12 @@ if (salario < 1500){
     novoSalario =   salario * 1.10;
 } else {novoSalario = salario * 1.05};
 
-console.log(`Salario antigo era de ${salario} e o salario atual é de ${novoSalario.toFixed(2)} `);
+// .toFixed = fixar em 2 casas decimais
+//console.log(`Salario antigo era de R$ ${salario} e o salario atual é de R$ ${novoSalario.toFixed(2)} `);
+
+// Tratar/formatar como moeda em reais
+console.log(salario);
+console.log(novoSalario.toLocaleString("pt-br", {
+    style:"currency",
+    currency: "BRL"
+}) );
