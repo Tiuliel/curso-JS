@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Sintaxe Geral</title>
+</head>
+<body>
+    <h1>Escrevendo JavaScript</h1>
+    <hr>
+
+    <script>
+        // Dica: atalho log e enter
+console.log("Exemplo Sintaxe Geral");
+
+/* ariáveis e constantes
+São espaços na memória RAM para armazenamento de dados. */
+
+//Variáveis (valor pode mudar)
+var aluno = "Eliel";  // método antigo
+let produto = "Monitor LG"; // método novo
+
+// Constantes (um valor fixo, que não muda)
+const escola = "Senac";
+
+
+// Saída/Exibição de dados da memória
+console.log(aluno);
+console.log(produto);
+console.log(escola);
+console.log(aluno, escola, produto);
+
+// somente declaração
+let servico, prestador, unidade;
+
+//Atribuição 
+servico = "Manutenção";
+prestador = "Seu Madruga";
+unidade = "Vila do Chaves";
+
+console.log(prestador, servico);
+// Dados numéricos
+let ano = 2023; // inteiro
+let preco = 1950.42 // decimal
+
+/* Operadores matemáticos  + - / *       */ 
+
+let valor1 = 10;
+let valor2 = 5;
+
+let soma = valor1 + valor2;
+let subtacao = valor1 - valor2;
+let multiplicacao = valor1 * valor2;
+let divisao = valor1 / valor2;
+
+console.log(soma, subtacao, multiplicacao, divisao);
+
+console.log("Olá "+aluno+", Bem-vido ao "+escola+"!");
+
+
+//TEMPLATE LITERAL/STRING (utiliza crases ``)
+
+console.log(`Olá ${aluno}, bem-vindo ao ${escola}!`);
+
+/* Sobre aspas (simples '' ou duplas "")
+aspas são usadas para textos/strings  */
+let estiloMusical_1 = "rock 'n' Roll"; //certo
+//let estiloMusical_2 = 'rock 'n' Roll'; //errado
+let estiloMusical_3 = 'rock "n" Roll'; //certo
+let estiloMusical_4 = 'rock \'n\' Roll'; //certo
+
+/* A barra invertida significa "ESCAPE", ou seja,
+indicamos pro JS que aquele caractere com a barra deve ser entendido apenas como um texto qualquer, sem interferência com a linguagem de programação. */
+
+
+
+
+    </script>
+</body>
+</html>
