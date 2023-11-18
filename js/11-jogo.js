@@ -5,6 +5,7 @@ const formulario = document.querySelector("form");
 const campoPalpite = document.querySelector("#palpite");
 const resultado = document.querySelector("#resultado");
 const image = document.querySelector("#imagem");
+const div = document.querySelector('#container');
 
 let faustao = "faustao.gif";
 let miseravi = "miseravi.gif"
